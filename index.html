@@ -1,54 +1,82 @@
-index.html
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis Redes Sociales</title>
+  <title>José Luis Monroy</title>
+  <link rel="icon" href="tu-foto.jpg" type="image/png">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ff4d4d, #4db8ff, #4dff88);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
     }
     h1 {
-      color: #333;
-      margin-bottom: 30px;
+      margin-top: 1rem;
+      font-size: 2.5rem;
     }
-    .links {
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .social-links {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       gap: 20px;
+      flex-wrap: wrap;
     }
-    a {
+    .social-links a {
+      display: inline-block;
+      padding: 15px 25px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 12px;
+      color: #fff;
       text-decoration: none;
-      font-size: 20px;
-      padding: 12px 24px;
-      border-radius: 8px;
-      color: white;
-      font-weight: bold;
-      text-align: center;
+      font-size: 1.1rem;
       transition: 0.3s;
     }
-    a.instagram { background: #E1306C; }
-    a.facebook { background: #1877F2; }
-    a.tiktok { background: #000000; }
-    a.youtube { background: #FF0000; }
-    a:hover { opacity: 0.8; }
+    .social-links a:hover {
+      background: rgba(0,0,0,0.4);
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
-  <h1>🌐 Conéctate conmigo</h1>
-  <div class="links">
-    <a href="https://www.instagram.com/joseluismonroyy?igsh=MWxoNXJodDBtMmd2bQ==" target="_blank" class="instagram">Instagram</a>
-    <a href="https://www.facebook.com/share/1JkXSFavtv/" target="_blank" class="facebook">Facebook</a>
-    <a href="https://tiktok.com/@monroy_escritor" target="_blank" class="tiktok">TikTok</a>
-    <a href="https://www.youtube.com/@JoseMonroy1984" target="_blank" class="youtube">YouTube</a>
-  </div>
+  <header>
+    <img src="tu-foto.jpg" alt="José Luis Monroy">
+    <h1>José Luis Monroy</h1>
+    <p>Escritor · Líder Social · Político</p>
+  </header>
+
+  <section class="social-links">
+    <a href="https://facebook.com/tuusuario" target="_blank">Facebook</a>
+    <a href="https://instagram.com/tuusuario" target="_blank">Instagram</a>
+    <a href="https://wa.me/57XXXXXXXXXX" target="_blank">WhatsApp</a>
+    <a href="https://x.com/tuusuario" target="_blank">Twitter / X</a>
+    <a href="https://www.youtube.com/@tuusuario" target="_blank">YouTube</a>
+  </section>
+
+  <footer>
+    © 2025 José Luis Monroy · Todos los derechos reservados
+  </footer>
 </body>
-</htm
+</html>
