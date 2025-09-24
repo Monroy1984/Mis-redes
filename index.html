@@ -25,7 +25,7 @@
       text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
     }
     p {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       margin-bottom: 2rem;
       font-weight: lighter;
     }
@@ -34,16 +34,22 @@
       gap: 30px;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 1.5rem;
     }
     .social-links a {
-      font-size: 2.5rem;
-      color: white;
-      transition: transform 0.3s, color 0.3s;
+      font-size: 2.8rem;
+      transition: transform 0.3s;
     }
     .social-links a:hover {
       transform: scale(1.2);
-      color: #000;
     }
+    /* Colores originales de cada red */
+    .facebook { color: #1877F2; }
+    .instagram { color: #E4405F; }
+    .whatsapp { color: #25D366; }
+    .twitter { color: #000000; }
+    .youtube { color: #FF0000; }
+
     footer {
       position: absolute;
       bottom: 15px;
@@ -54,9 +60,18 @@
 </head>
 <body>
   <h1>MONROY</h1>
-  <p>Escritor · Líder Social · Colombiano</p>
+  <p>Escritor Colombiano</p>
 
   <div class="social-links">
-    <a href="https://facebook.com/tuusuario" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://instagram.com/tuusuario" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://wa.me/57XXXXXXXXXX"
+    <a href="https://facebook.com/tuusuario" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/tuusuario" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/57XXXXXXXXXX" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://x.com/tuusuario" target="_blank" class="twitter"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://youtube.com/@tuusuario" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <footer>
+    © 2025 MONROY · Todos los derechos reservados
+  </footer>
+</body>
+</html>
